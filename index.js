@@ -350,6 +350,7 @@ page.appendChild(columns);
 const bodyCol = document.createElement('div');
 bodyCol.className = 'body-col';
 columns.appendChild(bodyCol);
+//new change
 
 // intro
 const p1 = document.createElement('p');
