@@ -297,18 +297,18 @@ document.body.appendChild(page);
 // tag
 const tag = document.createElement('div');
 tag.className = 'tag';
-tag.textContent = 'Featured · Mexican Independence';
+tag.textContent = "Featured · Mexican Independence";
 page.appendChild(tag);
 
 // headline
 const h1 = document.createElement('h1');
-h1.textContent = 'The Fist and the Angel';
+h1.textContent = "The Fist and the Angel";
 page.appendChild(h1);
 
 // deck / subtitle
 const deck = document.createElement('p');
 deck.className = 'deck';
-deck.textContent = 'These two monuments serve as two visions of Mexican independence. One a giant made of concrete, rising above an ancient lake, the other a golden figure above the grandest boulevard in the capital. Each tell us what Mexico chose to remember, and why.';
+deck.textContent = "These monuments represent two drastically different visions of Mexican independence. One is a concrete colossus towering over an ancient lake; the other, a gilded angel soaring above the capital's most famous boulevard. Together, they reveal exactly what Mexico chose to memorialize—and why.";
 page.appendChild(deck);
 
 // byline
@@ -323,11 +323,11 @@ banner.className = 'banner';
 
 const bannerImg1 = document.createElement('img');
 bannerImg1.src = 'images/joseMariaMorelosStatue.jpg';
-bannerImg1.alt = 'The Morelos statue on Isla Janitzio rising above Lake Patzcuaro';
+bannerImg1.alt = "The Morelos statue on Isla Janitzio rising above Lake Patzcuaro";
 
 const bannerImg2 = document.createElement('img');
 bannerImg2.src = 'images/angelDeIndependencia.jpg';
-bannerImg2.alt = 'The Angel of Independence on Paseo de la Reforma, Mexico City';
+bannerImg2.alt = "The Angel of Independence on Paseo de la Reforma, Mexico City";
 
 banner.appendChild(bannerImg1);
 banner.appendChild(bannerImg2);
@@ -353,43 +353,43 @@ columns.appendChild(bodyCol);
 
 // intro
 const p1 = document.createElement('p');
-p1.textContent = 'On the shimmering waters of Lake Pátzcuaro in Michoacán, a 40-meter concrete giant rises above the indigenous fishing village of Janitzio. Its raised fist, clenched skyward, has been visible from the mainland since 1933 — a gesture of permanent defiance. Nearly 300 miles to the northeast, on the grandest boulevard of Mexico City, a golden winged figure stands 6.7 meters tall atop a 36-meter column of marble and stone, her arms outstretched, a laurel wreath in one hand and a broken chain in the other. Together, the statue of José María Morelos y Pavón on Isla Janitzio and the Angel of Independence on Paseo de la Reforma offer a fascinating portrait of how Mexico chose to commemorate its hard-won freedom — one a monument to the people\'s war, the other a monument to the state\'s triumph.';
+p1.textContent = "Out on the sunlit waters of Michoacán’s Lake Pátzcuaro, a 40-meter concrete giant stands watch over the indigenous fishing village of Janitzio. With a fist thrust defiantly into the sky, it's a bold gesture that’s been visible from the mainland since 1933. Contrast that with a scene nearly 300 miles away in Mexico City: a gleaming, 6.7-meter golden winged victory perches on a marble column above Paseo de la Reforma, holding a laurel wreath and a broken chain. Side by side, the José María Morelos y Pavón statue and the Angel of Independence give us a striking look at how Mexico decided to frame its hard-fought freedom. One honors a gritty, grassroots revolution; the other celebrates the polished triumph of the state.";
 bodyCol.appendChild(p1);
 
 // section 1
 const h2a = document.createElement('h2');
-h2a.textContent = 'The Giant of Janitzio: Morelos and the People\'s Revolution';
+h2a.textContent = "The Giant of Janitzio: Morelos and the People's Revolution";
 bodyCol.appendChild(h2a);
 
 const p2 = document.createElement('p');
-p2.textContent = 'José María Morelos y Pavón (1765–1815) was not born to lead revolutions. A mestizo Catholic priest from Valladolid — today\'s Morelia — he came from modest origins, far removed from the Creole elite who dominated colonial Mexico. When Father Miguel Hidalgo y Costilla rang the bell of Dolores in September 1810 and called the people to arms, Morelos answered. After Hidalgo\'s capture and execution in 1811, Morelos assumed command of the independence movement and transformed it from a chaotic rural uprising into a disciplined military and political campaign. He organized the Congress of Chilpancingo in 1813, which produced the first formal declaration of Mexican independence, and authored the landmark document Sentimientos de la Nación — which called for the abolition of slavery and the dismantling of racial castes. Morelos was not merely a military commander; he was a constitutional visionary who understood that independence without social equality was simply a change of masters.';
+p2.textContent = "José María Morelos y Pavón (1765–1815) wasn't your typical revolutionary. A mestizo Catholic priest from Valladolid (now Morelia), he came from humble roots, miles away from the elite Creoles who ran colonial Mexico. But when Father Miguel Hidalgo y Costilla rang the bell of Dolores in 1810 and sparked the uprising, Morelos stepped up. After Hidalgo was captured and killed in 1811, Morelos took the reins, turning a scattered peasant rebellion into a sharply organized military and political force. He put together the Congress of Chilpancingo in 1813, which drafted Mexico's first real declaration of independence. He also wrote the Sentimientos de la Nación, a groundbreaking document demanding the end of slavery and the racial caste system. Morelos wasn't just a general; he was a visionary who knew that independence meant nothing if it didn't bring social equality.";
 bodyCol.appendChild(p2);
 
 // morelos portrait
 const fig1 = document.createElement('figure');
 const img1 = document.createElement('img');
 img1.src = 'images/morelosPortrait.jpg';
-img1.alt = 'Portrait of José María Morelos y Pavón';
+img1.alt = "Portrait of José María Morelos y Pavón";
 const cap1 = document.createElement('figcaption');
-cap1.innerHTML = '<strong>José María Morelos y Pavón (1765–1815)</strong> — A mestizo priest who turned Mexico\'s independence struggle into a campaign for racial and social equality. Executed by the Spanish Inquisition in 1815.';
+cap1.innerHTML = "<strong>José María Morelos y Pavón (1765–1815)</strong> — A mestizo priest who turned Mexico's independence struggle into a campaign for racial and social equality. Executed by the Spanish Inquisition in 1815.";
 fig1.appendChild(img1);
 fig1.appendChild(cap1);
 bodyCol.appendChild(fig1);
 
 const p3 = document.createElement('p');
-p3.textContent = 'By 1815, Spanish royalist forces had cornered and captured him. Tried by the Inquisition, stripped of his priesthood, and executed by firing squad on December 22, 1815, Morelos died a martyr. His legacy was immediately powerful — celebrated by liberals and populists, but inconvenient to conservatives who preferred the story of independence as an elite-managed transition of power.';
+p3.textContent = "But his run didn't last. By 1815, Spanish royalists had backed him into a corner. He was captured, tried by the Inquisition, stripped of his priesthood, and executed by firing squad on December 22, 1815. He died a martyr. Liberals and the working class idolized him, but his legacy was a thorn in the side of conservatives who wanted independence to look like a clean, elite handover of power.";
 bodyCol.appendChild(p3);
 
 const p4 = document.createElement('p');
-p4.textContent = 'The statue on Janitzio was completed in 1933, during the post-revolutionary Mexican government\'s program of nationalist cultural memory. The year is telling: Mexico was on the cusp of the transformative presidency of Lázaro Cárdenas (1934–1940), who would nationalize oil, redistribute land to peasants, and champion the Purépecha and other indigenous communities of Michoacán. Building a towering monument to Morelos — mestizo, priest, anti-slavery revolutionary — on an island at the heart of Purépecha indigenous territory was a deliberate act of nation-building. It tied the post-revolutionary state\'s legitimacy directly to Morelos\'s radical vision of a racially egalitarian Mexico.';
+p4.textContent = "The Janitzio statue was finished in 1933, right when Mexico’s post-revolutionary government was trying to shape the country's cultural memory. The timing is huge: Mexico was just about to enter the presidency of Lázaro Cárdenas, who would soon nationalize oil, give land back to farmers, and fiercely advocate for the Purépecha people of Michoacán. Dropping a massive monument of Morelos—a mestizo priest and anti-slavery crusader—right in the middle of indigenous Purépecha territory was a deeply intentional move. It hitched the new government's credibility straight to Morelos’s dream of an equal, racism-free Mexico.";
 bodyCol.appendChild(p4);
 
 const p5 = document.createElement('p');
-p5.textContent = 'The statue\'s design communicates this ambition with unmistakable power. The raised fist is its most legible symbol — a gesture of defiance and resistance that resonates far beyond its historical subject. Yet it is also functional: visitors ascend a spiraling interior staircase of 160 steps past murals by Ramón Alva de la Canal depicting Morelos\'s life, finally emerging in the statue\'s hollow wrist to peer through openings in the fist itself at the panoramic lake below. The viewer literally inhabits the monument\'s most powerful symbol. The monument does not merely represent Morelos — it invites visitors, and especially the Purépecha community who have always surrounded this lake, to see the world through the revolutionary\'s eyes.';
+p5.textContent = "The design of the statue hits you right over the head with this message. That raised fist is impossible to miss—a universal sign of fighting back. But it’s also physically interactive.  You can climb a spiraling 160-step staircase inside the statue, walking past Ramón Alva de la Canal's murals of Morelos’s life, until you reach the hollow space inside the wrist. From there, you literally look out over the lake through the gaps in the fist. The monument doesn't just show you Morelos; it puts you inside his perspective, asking you to see the world the way he did.";
 bodyCol.appendChild(p5);
 
 const p6 = document.createElement('p');
-p6.textContent = 'Yet the monument\'s placement introduces a quiet tension. The Purépecha people of the lake region had their own complex and ambiguous relationship with the independence movement — not all indigenous groups embraced the insurgency uniformly. The post-revolutionary state\'s habit of deploying indigenous geography and imagery to celebrate mestizo nationalist heroes was itself a subtle form of cultural appropriation. The statue says "this land honors its liberators." It is worth asking whether the communities who have always lived on this land were ever consulted about what liberation meant to them.';
+p6.textContent = "Still, putting the statue there creates a bit of quiet friction. The Purépecha people living around the lake had a pretty complicated history with the independence movement—not all indigenous groups were totally on board with the insurgency. The post-revolutionary government had a habit of using indigenous lands and symbols to prop up mestizo heroes, which was arguably a sneaky kind of cultural appropriation. The statue proudly declares, 'This land honors its liberators.' But it really makes you wonder if the locals were ever asked what liberation actually looked like to them.";
 bodyCol.appendChild(p6);
 
 const divider = document.createElement('div');
@@ -399,54 +399,54 @@ bodyCol.appendChild(divider);
 
 // section 2
 const h2b = document.createElement('h2');
-h2b.textContent = 'The Angel of Independence: Triumph in Marble and Gold';
+h2b.textContent = "The Angel of Independence: Triumph in Marble and Gold";
 bodyCol.appendChild(h2b);
 
 const p7 = document.createElement('p');
-p7.textContent = 'If the Morelos statue speaks in a clenched fist, the Angel of Independence speaks with outstretched wings. Inaugurated on September 16, 1910 — the centennial of Hidalgo\'s Grito de Independencia — the monument was the centerpiece of President Porfirio Díaz\'s lavish centennial celebrations. Díaz, who had ruled Mexico as a dictator for over thirty years, understood that monuments are not merely historical records but political instruments. The Angel was his gift to history: a declaration that the Mexico of 1910 was the legitimate heir and fulfillment of the independence struggle of 1810.';
+p7.textContent = "If the Morelos statue is a clenched fist, the Angel of Independence is an open embrace. Unveiled on September 16, 1910—exactly 100 years after Hidalgo’s call to arms—the monument was the crown jewel of President Porfirio Díaz’s over-the-top centennial bash. Díaz, who had been running Mexico as a dictator for over three decades, knew perfectly well that monuments are just politics set in stone. The Angel was his way of telling the world that his 1910 regime was the true, ultimate realization of the 1810 revolution.";
 bodyCol.appendChild(p7);
 
 const fig2 = document.createElement('figure');
 const img2 = document.createElement('img');
 img2.src = 'images/angelDeIndependencia.jpg';
-img2.alt = 'The Angel of Independence on Paseo de la Reforma, Mexico City';
+img2.alt = "The Angel of Independence on Paseo de la Reforma, Mexico City";
 const cap2 = document.createElement('figcaption');
-cap2.innerHTML = '<strong>El Ángel de la Independencia, Paseo de la Reforma, Mexico City</strong> — Inaugurated September 16, 1910 by President Porfirio Díaz. Designed by architect Antonio Rivas Mercado. The winged Victoria holds a laurel wreath and a broken chain symbolizing victory and freedom from colonial rule.';
+cap2.innerHTML = "<strong>El Ángel de la Independencia, Paseo de la Reforma, Mexico City</strong> — Inaugurated September 16, 1910 by President Porfirio Díaz. Designed by architect Antonio Rivas Mercado. The winged Victoria holds a laurel wreath and a broken chain symbolizing victory and freedom from colonial rule.";
 fig2.appendChild(img2);
 fig2.appendChild(cap2);
 bodyCol.appendChild(fig2);
 
 const p8 = document.createElement('p');
-p8.textContent = 'The monument was designed by architect Antonio Rivas Mercado and sculptor Enrique Alciati. The central figure — a winged Victoria modeled on classical Greco-Roman iconography — stands 6.7 meters tall atop a 36-meter Corinthian column, resting on a broad base whose four corners feature bronze sculptures representing Law, War, Justice, and Peace. The column\'s interior houses an ossuary: the remains of independence heroes including Hidalgo, Allende, Aldama, and Morelos were transferred here with great ceremony. The Angel is not merely a sculpture — it is a reliquary, a shrine that physically contains the founders of the Mexican nation.';
+p8.textContent = "Architect Antonio Rivas Mercado and sculptor Enrique Alciati designed the piece. The main attraction—a winged Victoria inspired by classic Greco-Roman art—stands tall on a 36-meter Corinthian column. The base is guarded by bronze figures representing Law, War, Justice, and Peace. But the column isn't solid; it holds an ossuary.  The bones of independence heroes like Hidalgo, Allende, Aldama, and Morelos himself were moved there in a massive ceremony. So the Angel isn't just a pretty landmark; it's literally a tomb holding the founding fathers of Mexico.";
 bodyCol.appendChild(p8);
 
 const p9 = document.createElement('p');
-p9.textContent = 'The monument\'s location is as deliberate as its design. Paseo de la Reforma was modeled on Baron Haussmann\'s grand Parisian boulevards — and placing the independence monument at one of its most prominent glorietas announced clearly that modern Mexico was a European-aspiring, cosmopolitan republic. The classical European aesthetic of the Angel communicates a specific vision: Mexican independence is not a peasant uprising but a civilizational achievement. It is telling that the monument chose a Greco-Roman winged Victoria rather than an indigenous or mestizo figure. The independence being celebrated here is filtered through a distinctly elite, Eurocentric lens.';
+p9.textContent = "Where they put it matters, too. Paseo de la Reforma was designed to mimic the grand boulevards of Paris. Dropping the independence monument in one of its biggest traffic circles was a loud announcement that modern Mexico was a cosmopolitan, European-style republic. The classical look of the Angel sends a very specific message: Mexican independence wasn't some messy peasant revolt; it was a high-class, civilized triumph. It’s pretty telling that they went with a Greco-Roman angel instead of an indigenous or mestizo figure. The version of independence they're selling here is strictly through an elite, Eurocentric lens.";
 bodyCol.appendChild(p9);
 
 const p10 = document.createElement('p');
-p10.textContent = 'The political context of the monument\'s creation is impossible to ignore. Díaz commissioned and inaugurated the Angel in 1910 — and by 1911, his regime had collapsed under the pressure of the Mexican Revolution. The leaders who overthrew Díaz would go on to lift figures like Morelos — the radical, the anti-elite, the mestizo priest — to the center of the national story. The Angel of Independence survived the Revolution and became the most beloved public monument in Mexico City, but its origins in the grandiosity of an authoritarian regime\'s self-celebration are an irreducible part of its meaning.';
+p10.textContent = "You can't ignore the political irony of it all. Díaz threw this massive party to unveil the Angel in 1910, and less than a year later, the Mexican Revolution blew his regime to pieces. The leaders who kicked him out ended up glorifying guys like Morelos—the anti-elite, mestizo underdog. Amazingly, the Angel survived the revolution and became Mexico City’s favorite landmark. But its roots in a dictator’s ego trip will always be part of its DNA.";
 bodyCol.appendChild(p10);
 
 const p11 = document.createElement('p');
-p11.textContent = 'Today the Angel serves functions its creator could not have imagined. It has become the spontaneous gathering point for national celebrations — football victories, political protests, New Year\'s Eve — and Mexicans have made it their own in ways that far exceed Díaz\'s original vision. The monument has been detached from its authoritarian origins and re-inscribed with popular meaning. This is itself a lesson in how monuments live beyond their makers.';
+p11.textContent = "Today, the Angel takes on a life its creators never could have guessed. It’s the go-to spot for basically everything: soccer wins, massive protests, New Year’s parties. Everyday Mexicans have claimed it as their own, completely rewriting Díaz's original intent. It just goes to show that monuments eventually belong to the people, not the politicians who built them.";
 bodyCol.appendChild(p11);
 
 // section 3
 const h2c = document.createElement('h2');
-h2c.textContent = 'Two Monuments, One Argument About Memory';
+h2c.textContent = "Two Monuments, One Argument About Memory";
 bodyCol.appendChild(h2c);
 
 const p12 = document.createElement('p');
-p12.textContent = 'Taken together, the Morelos statue and the Angel of Independence illuminate what historians have long understood: national memory is always selective, always political, and always partial. Every monument is an argument — it says "this person mattered, this value is worth preserving in stone." The Morelos statue argues for a Mexico that honors the poor, the mestizo, the radical priest who demanded that freedom mean something for everyone. The Angel argues for a Mexico that took its place among the civilized nations of the world, a republic with classical roots and European ambitions. These are genuinely different visions — and the tension between them has defined Mexican politics for two centuries.';
+p12.textContent = "Looking at them side by side, the Morelos statue and the Angel of Independence prove what historians always say: national memory is picky, political, and never tells the whole truth. Every monument is essentially an argument frozen in time. The Morelos statue argues for a Mexico that remembers the poor and the marginalized, led by a radical priest who wanted real freedom for everyone. The Angel argues for a slick, modernized Mexico that belongs among the 'civilized' powers of Europe. These are totally clashing visions, and the tug-of-war between them has basically defined Mexican politics for the last two hundred years.";
 bodyCol.appendChild(p12);
 
 const p13 = document.createElement('p');
-p13.textContent = 'It is also worth noting what both monuments share: both were built not at the moment of independence itself but decades or a century later, by governments with their own political agendas. The Morelos statue (1933) was a post-revolutionary statement about popular sovereignty. The Angel (1910) was a Porfirian statement about modernity and state power. Neither monument simply "records" history — both actively construct it, selecting which aspects of the independence struggle to amplify and which to quietly minimize. Morelos\'s statue lifts high the radical, egalitarian demands of his Sentimientos de la Nación. The Angel quietly elevates Creole leaders and the European aesthetic register, while the indigenous majority of the fighting forces goes symbolically unrepresented.';
+p13.textContent = "It’s also funny what they have in common. Neither was built during the actual war. Both went up decades or a century later, built by governments trying to push their own agendas. Morelos (1933) was all about post-revolutionary grassroots power. The Angel (1910) was about dictator-era modernization. Neither tells it like it was. They both selectively highlight some things and sweep others under the rug. The Janitzio statue amplifies the radical equality of the Sentimientos de la Nación. The Angel spotlights the Creole elites and a European vibe, while completely ignoring the indigenous masses who actually fought and died in the dirt.";
 bodyCol.appendChild(p13);
 
 const p14 = document.createElement('p');
-p14.textContent = 'In the end, both monuments are honest precisely because they are incomplete. The raised fist of Janitzio and the golden wings of the Reforma do not together tell the whole story of Mexican independence — no two monuments could. But they tell us, with striking clarity, about the different communities and different moments that shaped the way Mexico remembers its founding. Stone does not lie; but stone, like all memory, is strategically selective about what it chooses to say.';
+p14.textContent = "Ultimately, these monuments are honest because they're flawed. A giant concrete fist and a golden European angel can't possibly capture the whole messy truth of Mexican independence—no two statues ever could. But they do show us, crystal clear, how different generations and politicians manipulated history to tell the story they wanted. Stone might not lie, but just like human memory, it’s incredibly strategic about what it decides to leave out.";
 bodyCol.appendChild(p14);
 
 // citations
@@ -454,7 +454,7 @@ const citations = document.createElement('div');
 citations.className = 'citations';
 
 const citLabel = document.createElement('h3');
-citLabel.textContent = 'Works Cited';
+citLabel.textContent = "Works Cited";
 citations.appendChild(citLabel);
 
 const citList = document.createElement('ul');
@@ -485,7 +485,7 @@ columns.appendChild(sidebar);
 // pull quote 1
 const pq1 = document.createElement('div');
 pq1.className = 'pull-quote';
-pq1.innerHTML = `<blockquote>"The viewer literally inhabits the monument's most powerful symbol — seeing the world through Morelos's raised fist."</blockquote><cite>On the Morelos Statue, Isla Janitzio</cite>`;
+pq1.innerHTML = `<blockquote>"The monument doesn't just show you Morelos; it physically puts you inside his perspective, asking you to see the world the way he did."</blockquote><cite>On the Morelos Statue, Isla Janitzio</cite>`;
 sidebar.appendChild(pq1);
 
 // box 1
@@ -497,19 +497,19 @@ sidebar.appendChild(box1);
 // pull quote 2
 const pq2 = document.createElement('div');
 pq2.className = 'pull-quote';
-pq2.innerHTML = `<blockquote>"The Angel of Independence survived the Revolution — and was remade by the people as their own."</blockquote><cite>On El Ángel, Paseo de la Reforma</cite>`;
+pq2.innerHTML = `<blockquote>"Everyday Mexicans have claimed it as their own, completely rewriting Díaz's original intent."</blockquote><cite>On El Ángel, Paseo de la Reforma</cite>`;
 sidebar.appendChild(pq2);
 
 // box 2
 const box2 = document.createElement('div');
 box2.className = 'box';
-box2.innerHTML = `<div class="box-label">The Angel's Hidden Crypt</div><p>Beneath the monument's base lies an ossuary containing the remains of independence heroes including <strong>Hidalgo, Allende, Aldama, and Morelos</strong>. When Díaz inaugurated the monument in 1910, transferring these remains was a deliberate act of state sacralization — turning a political monument into a national shrine.</p>`;
+box2.innerHTML = `<div class="box-label">The Angel's Hidden Crypt</div><p>Beneath the monument's base lies an ossuary containing the remains of independence heroes including <strong>Hidalgo, Allende, Aldama, and Morelos</strong>. When Díaz inaugurated the monument in 1910, transferring these remains was a deliberate act of state sacralization—turning a political monument into a national shrine.</p>`;
 sidebar.appendChild(box2);
 
 // pull quote 3
 const pq3 = document.createElement('div');
 pq3.className = 'pull-quote';
-pq3.innerHTML = `<blockquote>"Every monument is an argument. It also tells us what the builders hoped the next generation would forget."</blockquote><cite>Conclusion</cite>`;
+pq3.innerHTML = `<blockquote>"Every monument is essentially an argument frozen in time. It also tells us what the builders hoped the next generation would forget."</blockquote><cite>Conclusion</cite>`;
 sidebar.appendChild(pq3);
 
 // box 3
@@ -521,7 +521,7 @@ sidebar.appendChild(box3);
 // pull quote 4
 const pq4 = document.createElement('div');
 pq4.className = 'pull-quote';
-pq4.innerHTML = `<blockquote>"Stone does not lie — but like all memory, it is selective about what it chooses to say."</blockquote><cite>Analysis</cite>`;
+pq4.innerHTML = `<blockquote>"Stone might not lie, but just like human memory, it’s incredibly strategic about what it decides to leave out."</blockquote><cite>Analysis</cite>`;
 sidebar.appendChild(pq4);
 
 // FOOTER
