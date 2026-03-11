@@ -308,7 +308,7 @@ page.appendChild(h1);
 // deck / subtitle
 const deck = document.createElement('p');
 deck.className = 'deck';
-deck.textContent = 'Two monuments, two visions of Mexican independence — one a concrete giant rising above an indigenous lake, the other a golden winged figure atop the grandest boulevard in the capital. Both tell us what a nation chose to remember, and why.';
+deck.textContent = 'These two monuments serve as two visions of Mexican independence. One a giant made of concrete, rising above an ancient lake, the other a golden figure above the grandest boulevard in the capital. Each tell us what Mexico chose to remember, and why.';
 page.appendChild(deck);
 
 // byline
